@@ -18,3 +18,7 @@
   "Bash(golangci-lint run *)"
 ]
 ```
+
+rules paths (`.claude/rules/`의 `paths` 값):
+- testing: `"**/*_test.go"`
+- api-design: `"**/handler*/**/*.go"`, `"**/api/**/*.go"`, `"**/server/**/*.go"`

@@ -22,3 +22,7 @@
 ```
 
 최신 Next.js는 `next lint`를 지원하지 않을 수 있다. `package.json`의 `lint` 스크립트가 무엇을 실행하는지 확인하고 그대로 쓴다. 테스트 스크립트가 없으면 테스트 명령을 비워 두고 사용자에게 알린다.
+
+rules paths (`.claude/rules/`의 `paths` 값):
+- testing: `"**/*.{test,spec}.{ts,tsx,js,jsx}"`, `"**/__tests__/**/*"`
+- api-design: `"app/api/**/*"`, `"src/app/api/**/*"`, `"pages/api/**/*"`, `"src/pages/api/**/*"`

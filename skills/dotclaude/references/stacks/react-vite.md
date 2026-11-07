@@ -21,3 +21,7 @@
   "Bash(npx tsc *)"
 ]
 ```
+
+rules paths (`.claude/rules/`의 `paths` 값):
+- testing: `"**/*.{test,spec}.{ts,tsx,js,jsx}"`, `"**/__tests__/**/*"`
+- api-design: `"src/api/**/*"`, `"src/services/**/*"`
