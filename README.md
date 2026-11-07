@@ -51,7 +51,7 @@ Claude Code에서 프로젝트 루트를 연 뒤 아래처럼 요청합니다.
 
 ## 기여
 
-이슈와 PR을 환영합니다. 새 스택 템플릿은 `references/stacks.md`에 추가해 주세요.
+이슈와 PR을 환영합니다. 새 스택 템플릿은 `references/stacks/`에 스택별 파일(기본 명령, `allow` 목록)로 추가하고, `references/stacks.md`의 스택별 파일 목록에 한 줄을 더해 주세요.
 
 ## 라이선스
 
